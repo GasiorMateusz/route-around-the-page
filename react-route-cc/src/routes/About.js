@@ -1,7 +1,7 @@
 
 const About = () =>{
     return(
-        <p>About</p>
+        <h1>This is the about page.</h1>
         )
 }
 export default About
