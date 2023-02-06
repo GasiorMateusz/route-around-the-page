@@ -1,6 +1,6 @@
 const Footer = () => {
     return(
-        <div>foot</div>
+        <div>This is an example project for practicing React routing.</div>
     )
 }
 
