@@ -1,6 +1,6 @@
 const Header = () => {
     return(
-    <p>head</p>
+    <p>This is an example project for practicing React routing.</p>
         )
 }
 
