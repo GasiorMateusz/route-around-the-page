@@ -1,20 +1,21 @@
 import React from 'react';
 import Header from './Header'
 import Footer from './Footer'
-import NavBar from "./NavBar";
+import NavBar from "./navBar/NavBar";
+import {PATHS} from "./routes/paths";
 import '../layout.css'
 const Layout =({children}) =>{
     return(
-        <>
+        <div>
             <div>
                 <Header/>
-                <NavBar/>
+                <NavBar paths={PATHS}/>
             </div>
             <div>
                 <main>{children}</main>
             </div>
             {<div><Footer/></div>}
-        </>
+        </div>
     )
 }
 

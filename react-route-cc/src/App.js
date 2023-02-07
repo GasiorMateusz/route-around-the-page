@@ -1,13 +1,14 @@
 import Layout from "./components/Layout";
-import Main from "./routes/main";
+import Main from "./components/routes/Main";
 
-export function App() {
+const App = () =>{
     return (
-        <>
+        <div>
             <Layout>
                 <Main/>
             </Layout>
 
-        </>
+        </div>
     )
 }
+export default App
